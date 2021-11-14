@@ -12,6 +12,6 @@ def imshow(X, resize=None):
   plt.show()
 
 
-interact(imshow, X=fixed('array'), resize=10)
+interact(imshow, X=fixed, resize=10)
 
 
