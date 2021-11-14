@@ -11,4 +11,4 @@ def imshow(X, resize=None):
   plt.show()
   return 0
 
-#interact(imshow, resize=[(32,32),(12,12)] )
+@interact(X=fixed('Image') , resize =widgets.IntSlider(min=10, max=1250))
